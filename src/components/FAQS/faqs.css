@@ -1,0 +1,160 @@
+.faqs{
+    height: 960px;
+    background-color: black;
+    padding-top: 30px;
+    overflow-x: hidden;
+}
+
+.faqs h4{
+    position: absolute;
+    bottom: -1130px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.FAQSWrapper{  
+    text-align: end;
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+
+.faqs h2{
+    position: absolute;
+    bottom: -1220px;
+    overflow: hidden;
+    font-family: 'Poppins';
+    font-size: 3.3em;
+    color: white;
+    font-weight: 600;
+}
+
+.questions{
+    max-width: 100%;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: -1700px;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.quest{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    width: 1100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.answers{
+    color: white;
+    width: 1000px;
+}
+
+/* XX-Large devices */
+@media (max-width: 1440px) {
+  .faqs{
+    height: 1100px;
+  }
+
+  .FAQSWrapper{
+    bottom: -1150px;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+  .faqs{
+    height: 960px;
+  }
+
+  .faqs h4{
+    bottom: -1200px;
+  }
+
+  .faqs h2{
+    font-size: 35px;
+    bottom: -1250px;
+  }
+
+  .FAQSWrapper{
+    width: 350px;
+    bottom: -1220px;
+  }
+
+  .answers{
+    width: 710px;
+  }
+
+  .quest{
+    width: 90vw;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+  .FAQSWrapper{
+    bottom: -1000px;
+    width: 300px;
+  }
+
+  .faqs h4{
+    bottom: -1020px;
+  }
+
+  .faqs h2{
+     font-size: 23px;
+     bottom: -1050px;
+  }
+
+  .questions{
+    bottom: -1550px;
+    font-size: 12px;
+  }
+
+  .answers{
+    width: 90%;
+  }
+
+  .quest{
+    width: 380px;
+  }
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 375px) { 
+  .questions{
+    bottom: -1520px;
+    font-size: 10px;
+    width: 95%;
+  }
+
+  .quest{
+    width: 90%;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 320px) { 
+  .questions{
+    bottom: -1550px;
+    font-size: 10px;
+    width: 95%;
+  }
+
+  .quest{
+    width: 90%;
+  }
+
+  .faqs h4{
+    bottom: -1030px;
+  }
+
+  .faqs h2{
+    bottom: -1090px;
+  }
+}

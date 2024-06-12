@@ -1,0 +1,185 @@
+.contact {
+  background-image: url(../../assets/contact-bg.png);
+  width: 100%;
+  position: relative;
+  height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0px !important;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.main {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Poppins";
+  width: 60%;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+input::placeholder {
+  color: white;
+}
+
+textarea::placeholder {
+  color: white;
+}
+
+.ab {
+  width: 60%;
+  margin-left: 220px;
+  height: 54px;
+  margin-right: 20px;
+  padding: 15px;
+  border: none;
+  background-color: #494646bc;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "Poppins";
+}
+
+.ba {
+  width: 60%;
+  margin-right: 200px;
+  height: 54px;
+  padding: 15px;
+  border: none;
+  background-color: #494646bc;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "Poppins";
+}
+
+.message-sec {
+  width: 61%;
+  padding: 15px;
+  margin-left: 220px;
+  font-size: 16px;
+  font-family: "Poppins";
+  border: none;
+  background-color: #494646bc;
+  color: white;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 7px 40px;
+  font-size: 16px;
+  width: 140px;
+  cursor: pointer;
+  font-family: "Poppins";
+  text-transform: capitalize;
+  font-weight: 500;
+  height: 38px;
+  margin-left: 220px;
+}
+
+/* XX-Large devices */
+@media (max-width: 1440px) {
+  .message-sec{
+    width: 64%;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+  .message-sec {
+      width: 57%;
+  }
+
+  .submit-btn{
+    margin-bottom: 20px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+  .contact{
+    height: 800px;
+  }
+  .ab{
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .ba{
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .message-sec{
+    margin-left: 0;
+    width: 100%;
+  }
+ }
+
+ /* // Small devices (landscape phones, 576px and up) */
+ @media (max-width: 576px) { 
+  .main{
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .submit-btn{
+    margin-left: 150px;
+  }
+
+  .contact{
+    height: 750px;
+  }
+  }
+ 
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 375px) { 
+  .contact{
+    overflow: hidden;
+    height: 800px;
+  }
+
+  .submit-btn{
+    margin-left: 110px;
+  }
+
+  .main{
+    width: 100%;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 320px) { 
+  .contact{
+    height: 700px;
+  }
+
+  .submit-btn{
+    margin-left: 80px;
+  }
+
+  .main{
+    width: 100%;
+    font-size: 20px;
+  }
+}
